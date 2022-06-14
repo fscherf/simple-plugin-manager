@@ -15,7 +15,7 @@ $(PYTHON_DEVELOPMENT_ENV)/.created: REQUIREMENTS.development.txt
 	$(PYTHON) -m venv $(PYTHON_DEVELOPMENT_ENV) && \
 	. $(PYTHON_DEVELOPMENT_ENV)/bin/activate && \
 	pip install pip --upgrade && \
-	pip install -r ./REQUIREMENTS.dev.txt && \
+	pip install -r ./REQUIREMENTS.development.txt && \
 	date > $(PYTHON_DEVELOPMENT_ENV)/.created
 
 dev-env: $(PYTHON_DEVELOPMENT_ENV)/.created

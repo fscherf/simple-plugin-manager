@@ -1,2 +1,2 @@
 def test_package():
-    import simple_plugin_manager  # NOQA
+    from simple_plugin_manager import PluginManager  # NOQA
