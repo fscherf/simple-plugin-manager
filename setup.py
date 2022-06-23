@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 setup(
     include_package_data=True,
     name='simple-plugin-manager',
-    version='0.1',
+    version='0.1.1',
     author='Florian Scherf',
     url='https://github.com/fscherf/simple-plugin-manager',
     author_email='mail@florianscherf.de',
